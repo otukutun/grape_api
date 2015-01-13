@@ -1,12 +1,10 @@
-module API
-  module Ver1
-    class Root < Grape::API
-      # http://localhost:3000/api/v1/
-      version 'v1'
-      format :json
+module Ver1
+  class Root < Grape::API
+    # http://localhost:3000/api/v1/
+    version 'v1'
+    # format :json
 
-      mount API::Ver1::People
-      mount API::Ver1::Products
-    end
+    mount Ver1::People
+    mount Ver1::Products
   end
 end
