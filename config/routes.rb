@@ -5,7 +5,6 @@ Rails.application.routes.draw do
   post 'logout' => 'sessions#destroy', as: :logout
 
   resources :users
-
   resources :people
   resources :products
 
