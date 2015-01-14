@@ -6,5 +6,6 @@ module Ver1
 
     mount Ver1::People
     mount Ver1::Products
+    mount Ver1::Users
   end
 end
