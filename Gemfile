@@ -44,7 +44,7 @@ group :development, :test do
 end
 
 
-gem 'devise'
+gem 'sorcery'
 gem 'grape'
 gem 'grape-jbuilder'
 gem 'mysql2'
