@@ -50,6 +50,7 @@ gem 'grape-jbuilder'
 gem 'mysql2'
 gem 'settingslogic'
 gem 'draper', github: 'drapergem/draper'
+gem 'responders', '~> 2.0'
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl_rails'
