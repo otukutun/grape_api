@@ -3,6 +3,6 @@ class API < Grape::API
   prefix 'api'
   format :json
 
-  mount API::Ver1::Root
-  #mount API::Ver2::Root
+  mount Ver1::Root
+  #mount Ver2::Root
 end
